@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sarkin Mota Autors</title>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    
+  </style>
+</head>
+<body>
+
+  <h1>Sarkin Mota Autors</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#inventory">Inventory</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <main>
+      <section id="about">
+        <h2>About Sarkin Mota Autors</h2>
+        <p>Sarkin Mota Autors is a leading car dealership specializing in both brand-new and certified pre-owned vehicles. We offer affordable deals,
+        transparent transactions, and after-sales support to keep you moving confidently.</p>
+        <img src="sarkin_mota.jpg" alt="Car Showroom" width="300">
+      </section>
+
+      <section id="inventory">
+        <h2>Available Vehicles</h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Brand</th>
+              <th>Model</th>
+              <th>Year</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Toyota</td>
+              <td>Corolla</td>
+              <td>2022</td>
+              <td>N19,500</td>
+            </tr>
+            <tr>
+              <td>Hyundai</td>
+              <td>Elantra</td>
+              <td>2021</td>
+              <td>N17,800</td>
+            </tr>
+            <tr>
+              <td>Ford</td>
+              <td>Edge</td>
+              <td>2020</td>
+              <td>N21,300</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+          <li>Vehicle Sales (New & Used)</li>
+          <li>Flexible Auto Financing</li>
+          <li>Car Trade-Ins</li>
+          <li>Vehicle Insurance & Registration Support</li>
+          <li>24/7 Customer Support</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Book a Car</h2>
+        <p>Interested in buying one of our vehicles? Fill the form below and our sales team will get back to you shortly:</p>
+        <form action="thank_you.html" method="get">
+          <label for="name">Full Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" placeholder="08012345678" required>
+
+          <label for="car">Car of Interest:</label>
+          <select id="car" name="car" required>
+            <option value="">--Select a Car--</option>
+            <option value="toyota_corolla">Toyota Corolla (2022)</option>
+            <option value="hyundai_elantra">Hyundai Elantra (2021)</option>
+            <option value="ford_edge">Ford Edge (2020)</option>
+          </select>
+
+          <label>Preferred Condition:</label><br>
+          <input type="radio" id="new" name="condition" value="new" required>
+          <label for="new">New</label><br>
+          <input type="radio" id="used" name="condition" value="used">
+          <label for="used">Used</label><br><br>
+
+          <label for="payment">Preferred Payment Method:</label>
+          <select id="payment" name="payment" required>
+            <option value="">--Select Payment Option--</option>
+            <option value="full">Full Payment</option>
+            <option value="installments">Installments</option>
+            <option value="financing">Financing/Loan</option>
+          </select>
+
+          <label for="comments">Additional Comments:</label>
+          <textarea id="comments" name="comments" rows="4" placeholder="Let us know if you have questions..."></textarea>
+
+          <input type="submit" value="Submit Inquiry">
+        </form>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to book a test drive? Fill out the form below:</p>
+        <form>
+          <label for="name2">Full Name:</label>
+          <input type="text" id="name2" name="name">
+
+          <label for="phone2">Phone Number:</label>
+          <input type="tel" id="phone2" name="phone">
+
+          <label for="email2">Email Address:</label>
+          <input type="email" id="email2" name="email">
+
+          <label for="message">Your Message:</label>
+          <textarea id="message" name="message" rows="4"></textarea>
+
+          <input type="submit" value="Send Message">
+        </form>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <p>&copy; Sarkin Mota Autors. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
