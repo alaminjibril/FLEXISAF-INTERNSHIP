@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sarkin Mota Autors</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="main-header">
+    <div class="container header-content">
+      <h1>Sarkin Mota Autors</h1>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#book">Book</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <h2>Welcome to Sarkin Mota Autors</h2>
+        <p>Your trusted car dealership and rental service.</p>
+      </div>
+      <img src="sarkin_mota.jpg" alt="Car Showroom" class="hero-img" />
+    </section>
+
+    <section id="services" class="services">
+      <h2>Our Services</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Car Sales</h3>
+          <p>Wide range of new and used cars for sale.</p>
+        </div>
+        <div class="card">
+          <h3>Car Rentals</h3>
+          <p>Affordable car rental services for short and long-term use.</p>
+        </div>
+        <div class="card">
+          <h3>Maintenance</h3>
+          <p>Professional car maintenance and repair services.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="book" class="book">
+      <h2>Book a Car</h2>
+      <form action="thank_you.html" method="get" class="form-flex">
+        <label for="car-type">Car Type:</label>
+        <select id="car-type" name="car-type" required>
+          <option value="">Select a car</option>
+          <option value="sedan">Sedan</option>
+          <option value="suv">SUV</option>
+          <option value="truck">Truck</option>
+        </select>
+
+        <label for="pickup-date">Pick-up Date:</label>
+        <input type="date" id="pickup-date" name="pickup-date" required />
+
+        <label for="return-date">Return Date:</label>
+        <input type="date" id="return-date" name="return-date" required />
+
+        <button type="submit">Book Now</button>
+      </form>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <form action="mailto:sarkinmotors@example.com" method="post" enctype="text/plain" class="form-flex">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Sarkin Mota Autors. All rights reserved.</p>
+  </footer>
+</body>
+</html>
