@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Text Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="wrapper">
+    <h1>Text Generator</h1>
+    <section class="generator-box">
+      <p>I need 
+        <input type="number" id="amount" min="1" value="1">
+        of your 
+        <select id="type">
+          <option value="words">words</option>
+          <option value="sentences">sentences</option>
+          <option value="paragraphs">paragraphs</option>
+        </select>.
+      </p>
+      <p id="output">Generated text will appear here.</p>
+      <button onclick="generate()">Generate</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
