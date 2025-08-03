@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pomodoro Timer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Pomodoro Timer</h1>
+
+    <!-- Dark Mode Toggle -->
+    <button id="toggle-theme">🌙 Dark Mode</button>
+
+    <!-- Task Input -->
+    <div class="task-section">
+      <input type="text" id="taskInput" placeholder="What are you working on?" />
+      <button id="addTask">Add Task</button>
+      <ul id="taskList"></ul>
+    </div>
+
+    <div class="timer-settings">
+      <button id="pomodoro">Pomodoro</button>
+      <button id="short-break">Short Break</button>
+      <button id="long-break">Long Break</button>
+    </div>
+
+    <div class="timer-display">
+      <h2 id="time">25:00</h2>
+      <div id="progress-bar"></div>
+    </div>
+
+    <div class="timer-controls">
+      <button id="start">Start</button>
+      <button id="pause">Pause</button>
+      <button id="reset">Reset</button>
+    </div>
+
+    <p>Completed Pomodoros: <span id="pomodoroCount">0</span></p>
+
+    <audio id="alarm-sound" src="assets/alarm.mp3"></audio>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
