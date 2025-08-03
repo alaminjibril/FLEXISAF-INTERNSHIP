@@ -1,0 +1,51 @@
+Pomodoro Timer Web App – Project Documentation
+Project Title: Pomodoro Timer Web App
+Submitted by: Al-Amin Jibril
+Date: August 2025
+Technology Used: HTML, CSS, JavaScript
+Table of Contents
+1. Introduction
+2. Problem Statement
+3. Objective
+4. Features
+5. Technologies Used
+6.  How It Works
+7. Hosting & Repository
+8. Conclusion
+Introduction
+The Pomodoro Technique represents a validated time management procedure that makes people work with time instead of versus it. This project is aimed at developing a responsive web Pomodoro Timer with the help of HTML, CSS and JavaScript in order to assist users in remaining focused and productive.
+Problem Statement
+In the era of digitalization, distractions are in every corner, social media, notifications, multitasking, etc. Lots of people can not organize their time properly and this fact causes burn out, failure to meet the deadlines and inefficient working hours. A systematic way of dividing work into periods can make a great enhancement in efficiency.
+Objective
+To build a practical Pomodoro timer tool that helps users:
+- Focus for short sprints
+- Take scheduled breaks
+- Track daily task progress
+- Manage productivity visually with timers and feedback
+Features
+- Start, Pause, and Reset Timer
+- Choose between Pomodoro, Short Break, and Long Break
+- Track number of completed Pomodoros
+- Add, complete, and delete tasks with task status
+- Save user progress and task list using LocalStorage
+- Toggle between Light Mode and Dark Mode
+- Fully mobile responsive layout
+- Progress bar for visual feedback
+Technologies Used
+- HTML5 – Page structure
+- CSS3 – Styling, responsive design
+- JavaScript (Vanilla) – Timer logic, DOM manipulation, LocalStorage
+- GitHub – Version control and repository
+- Netlify  – Hosting platform
+How It Works
+1. The app opens with a timer set to 25 minutes (Pomodoro session).
+2. The user can add tasks above  the timer and mark them 'Complete' or 'Delete'.
+3. On starting the timer, it counts down and plays a sound when done.
+4. The user can switch between Pomodoro / Short Break / Long Break modes.
+5. Task list and Pomodoro count persist using localStorage, even after refresh.
+6. A dark mode toggle allows user to work in low-light environments.
+Hosting & Repository
+- GitHub Repository: https://github.com/alaminjibril/FLEXISAF-INTERNSHIP
+- Live Deployment (Netlify): https://phenomenal-croquembouche-e754e6.netlify.app/
+Conclusion
+The key competencies of front-end web development, illustrated within this project, are responsive design, interactivity with the DOM, dynamic state and UI/UX mentalities. It also supports the principles of productivity in real life. The Pomodoro Timer App is an effective, but simple tool that helps to enhance the level of focus and performance at your workplace.
