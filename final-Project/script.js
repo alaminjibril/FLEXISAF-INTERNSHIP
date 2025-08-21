@@ -86,11 +86,10 @@ function setMode(button, time) {
 toggleTheme.addEventListener('click', () => {
   document.body.classList.toggle('dark-mode');
   toggleTheme.textContent = document.body.classList.contains('dark-mode')
-    ? '☀️ Light Mode'
-    : '🌙 Dark Mode';
+    ? 'Light Mode'
+    : 'Dark Mode';
 });
 
-// Button listener
 buttons.start.addEventListener('click', startTimer);
 buttons.pause.addEventListener('click', pauseTimer);
 buttons.reset.addEventListener('click', () => resetTimer(duration));
